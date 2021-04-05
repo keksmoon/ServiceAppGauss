@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "TestApp\MyApp.csproj", "{27B21BC4-5655-4468-BDAE-2378FB095CB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F645FD5A-4662-4808-9918-2F2DE964242B} = {F645FD5A-4662-4808-9918-2F2DE964242B}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MatrixGaussMethod", "MatrixGaussMethod\", "{F645FD5A-4662-4808-9918-2F2DE964242B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51164"
+		Debug.AspNetCompiler.PhysicalPath = "MatrixGaussMethod\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51164\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51164"
+		Release.AspNetCompiler.PhysicalPath = "MatrixGaussMethod\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51164\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51164"
+		SlnRelativePath = "MatrixGaussMethod\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|iPhone.Build.0 = Release|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{27B21BC4-5655-4468-BDAE-2378FB095CB6}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|iPhone.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|iPhone.Build.0 = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F645FD5A-4662-4808-9918-2F2DE964242B}.Release|iPhoneSimulator.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6C858E-0AD0-4DC8-9FD3-349E53455FA0}
+	EndGlobalSection
+EndGlobal
