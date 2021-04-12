@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:51164/Service.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://teterint.ru/wcf/Service.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="0649d20b-c932-491c-a801-66a8fa51f72d" SourceId="1" SourceUrl="http://localhost:51164/Service.svc?xsd=xsd0" />
-    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="d6e62786-505e-47f5-b3b8-9b0ec40f1cd8" SourceId="1" SourceUrl="http://localhost:51164/Service.svc?disco" />
-    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="d064fe75-54ff-45ed-8bba-c2ba181a2d82" SourceId="1" SourceUrl="http://localhost:51164/Service.svc?wsdl" />
-    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="691ed29a-4a1a-4c79-a103-18e6a28db76b" SourceId="1" SourceUrl="http://localhost:51164/Service.svc?xsd=xsd2" />
-    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="49bc6df7-964c-4988-824b-9e314a0ee580" SourceId="1" SourceUrl="http://localhost:51164/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="49499ae3-7ba8-4bb7-addd-e748f3edd7f6" SourceId="1" SourceUrl="http://teterint.ru/wcf/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="997883d6-5e59-4b37-8278-ec21c9fbe03d" SourceId="1" SourceUrl="http://teterint.ru/wcf/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="70e9b881-085d-4079-a42d-bdea22d583f5" SourceId="1" SourceUrl="http://teterint.ru/wcf/Service.svc?disco" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="0bcb6ad1-4d0f-486d-99f8-95df300be76e" SourceId="1" SourceUrl="http://teterint.ru/wcf/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="3164eafe-4d7b-4f5f-84c7-b2e47e56552a" SourceId="1" SourceUrl="http://teterint.ru/wcf/Service.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

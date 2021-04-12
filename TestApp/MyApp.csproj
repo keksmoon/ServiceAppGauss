@@ -76,14 +76,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\GaussMethod\Service.wsdl" />
-    <None Include="Connected Services\GaussMethod\Service.xsd">
+    <None Include="Connected Services\GaussMethod\Service1.wsdl" />
+    <None Include="Connected Services\GaussMethod\Service3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\GaussMethod\Service1.xsd">
+    <None Include="Connected Services\GaussMethod\Service31.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\GaussMethod\Service2.xsd">
+    <None Include="Connected Services\GaussMethod\Service32.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -103,13 +103,13 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\GaussMethod\Service.disco" />
     <None Include="Connected Services\GaussMethod\configuration91.svcinfo" />
     <None Include="Connected Services\GaussMethod\configuration.svcinfo" />
     <None Include="Connected Services\GaussMethod\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\GaussMethod\Service1.disco" />
     <Content Include="matrix_icon_137416.ico" />
   </ItemGroup>
   <ItemGroup>

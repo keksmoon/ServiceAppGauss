@@ -111,27 +111,28 @@ namespace TestApp {
         }
 
         private void testToolStripMenuItem_Click(object sender, EventArgs e) {
-            GaussMethod.ServiceClient gaussClient = new GaussMethod.ServiceClient();
+            MessageBox.Show("Раздел тестируется :)");
+            //GaussMethod.ServiceClient gaussClient = new GaussMethod.ServiceClient();
 
-            int SIZE = matrix.Columns.Count;
-            int inCnt = 0;
-            double[] inData = new double[SIZE * SIZE];
-            for (int i = 0; i < SIZE; i++) {
-                for (int j = 0; j < SIZE; j++) {
-                    inData[inCnt++] = Convert.ToDouble(matrix[j, i].Value);
-                }
-            }
+            //int SIZE = matrix.Columns.Count;
+            //int inCnt = 0;
+            //double[] inData = new double[SIZE * SIZE];
+            //for (int i = 0; i < SIZE; i++) {
+            //    for (int j = 0; j < SIZE; j++) {
+            //        inData[inCnt++] = Convert.ToDouble(matrix[j, i].Value);
+            //    }
+            //}
 
-            double[] outData = gaussClient.GetObrMatrix(inData, SIZE);
+            //double[] outData = gaussClient.GetObrMatrix(inData, SIZE);
 
-            int outCnt = 0;
-            for (int i = 0; i < SIZE - 1; i++) {
-                for (int j = 0; j < SIZE - 1; j++) {
-                    matrix[j, i].Value = outData[outCnt++];
-                }
-            }
+            //int outCnt = 0;
+            //for (int i = 0; i < SIZE - 1; i++) {
+            //    for (int j = 0; j < SIZE - 1; j++) {
+            //        matrix[j, i].Value = outData[outCnt++];
+            //    }
+            //}
 
-            gaussClient.Close();
+            //gaussClient.Close();
         }
     }
 }

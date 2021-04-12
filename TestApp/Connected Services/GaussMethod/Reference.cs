@@ -21,11 +21,11 @@ namespace TestApp.GaussMethod {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/StartGauss", ReplyAction="http://tempuri.org/IService/StartGaussResponse")]
         System.Threading.Tasks.Task<double[]> StartGaussAsync(double[] value, int size);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetObrMatrix", ReplyAction="http://tempuri.org/IService/GetObrMatrixResponse")]
-        double[] GetObrMatrix(double[] value, int size);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetActuellVersion", ReplyAction="http://tempuri.org/IService/GetActuellVersionResponse")]
+        string GetActuellVersion();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetObrMatrix", ReplyAction="http://tempuri.org/IService/GetObrMatrixResponse")]
-        System.Threading.Tasks.Task<double[]> GetObrMatrixAsync(double[] value, int size);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetActuellVersion", ReplyAction="http://tempuri.org/IService/GetActuellVersionResponse")]
+        System.Threading.Tasks.Task<string> GetActuellVersionAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -63,12 +63,12 @@ namespace TestApp.GaussMethod {
             return base.Channel.StartGaussAsync(value, size);
         }
         
-        public double[] GetObrMatrix(double[] value, int size) {
-            return base.Channel.GetObrMatrix(value, size);
+        public string GetActuellVersion() {
+            return base.Channel.GetActuellVersion();
         }
         
-        public System.Threading.Tasks.Task<double[]> GetObrMatrixAsync(double[] value, int size) {
-            return base.Channel.GetObrMatrixAsync(value, size);
+        public System.Threading.Tasks.Task<string> GetActuellVersionAsync() {
+            return base.Channel.GetActuellVersionAsync();
         }
     }
 }
